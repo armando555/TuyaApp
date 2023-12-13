@@ -1,0 +1,206 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/ariosg/Documents/own-projects/TuyaApp/app/src/Infrastructure/Infrastructure.csproj": {}
+  },
+  "projects": {
+    "/home/ariosg/Documents/own-projects/TuyaApp/app/src/Application/Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/ariosg/Documents/own-projects/TuyaApp/app/src/Application/Application.csproj",
+        "projectName": "Application",
+        "projectPath": "/home/ariosg/Documents/own-projects/TuyaApp/app/src/Application/Application.csproj",
+        "packagesPath": "/home/ariosg/.nuget/packages/",
+        "outputPath": "/home/ariosg/Documents/own-projects/TuyaApp/app/src/Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/ariosg/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/home/ariosg/Documents/own-projects/TuyaApp/app/src/Domain/Domain.csproj": {
+                "projectPath": "/home/ariosg/Documents/own-projects/TuyaApp/app/src/Domain/Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.404/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/ariosg/Documents/own-projects/TuyaApp/app/src/Domain/Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/ariosg/Documents/own-projects/TuyaApp/app/src/Domain/Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "/home/ariosg/Documents/own-projects/TuyaApp/app/src/Domain/Domain.csproj",
+        "packagesPath": "/home/ariosg/.nuget/packages/",
+        "outputPath": "/home/ariosg/Documents/own-projects/TuyaApp/app/src/Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/ariosg/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.404/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/ariosg/Documents/own-projects/TuyaApp/app/src/Infrastructure/Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/ariosg/Documents/own-projects/TuyaApp/app/src/Infrastructure/Infrastructure.csproj",
+        "projectName": "Infrastructure",
+        "projectPath": "/home/ariosg/Documents/own-projects/TuyaApp/app/src/Infrastructure/Infrastructure.csproj",
+        "packagesPath": "/home/ariosg/.nuget/packages/",
+        "outputPath": "/home/ariosg/Documents/own-projects/TuyaApp/app/src/Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/ariosg/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/home/ariosg/Documents/own-projects/TuyaApp/app/src/Application/Application.csproj": {
+                "projectPath": "/home/ariosg/Documents/own-projects/TuyaApp/app/src/Application/Application.csproj"
+              },
+              "/home/ariosg/Documents/own-projects/TuyaApp/app/src/Domain/Domain.csproj": {
+                "projectPath": "/home/ariosg/Documents/own-projects/TuyaApp/app/src/Domain/Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.404/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
